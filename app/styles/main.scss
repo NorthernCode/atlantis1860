@@ -4,9 +4,9 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-::-webkit-scrollbar { 
-    display: none; 
-}
+// ::-webkit-scrollbar { 
+//     display: none; 
+// }
 
 body{
   display: block;
@@ -16,10 +16,34 @@ body{
   height: 100vh;
 }
 
+
+
 #bg{  
-  background-image: url('../images/bg2.jpg');
+  height: 3523px;
+  background-image: url('../images/bg_w1200.jpg');
   background-repeat: no-repeat;
   background-position: center top;
 
-  height: 3523px;
+  @media (max-width: 800px) { 
+    height: 2349;
+    background-image: url('../images/bg_w800.jpg');
+  }
+
+  @media (min-width:801px) and (max-width: 1200px) { 
+    height: 3523px;
+    background-image: url('../images/bg_w1200.jpg');
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1600px) { 
+    height: 4698px;
+    background-image: url('../images/bg_w1600.jpg');    
+  }
+
+  @media (min-width: 1601px) { 
+    height: 5872px;
+    background-image: url('../images/bg_w2000.jpg');
+  }
+
+
 }
+

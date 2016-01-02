@@ -20,10 +20,15 @@ body{
 }
 
 #bg{  
-  height: 3523px;
-  background-image: url('../images/bg_w1200.jpg');
+  height: 11779px;
+  background-image: url('../images/bg_w320.jpg');
   background-repeat: no-repeat;
   background-position: center top;
+
+  @media (max-width: 600px) { 
+    height: 2349;
+    background-image: url('../images/bg_w600.jpg');
+  }
 
   @media (max-width: 800px) { 
     height: 2349;

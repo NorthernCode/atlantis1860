@@ -1,1 +1,1 @@
-"use strict";$("document").ready(function(){$.stellar(),$(".section").attr("data-stellar-ratio","3"),$("html, body").animate({scrollTop:window.innerHeight/2},1500),$(document).scroll(function(){document.documentElement.clientHeight+$(document).scrollTop()>=document.body.offsetHeight&&$(document).scrollTop(0)})});
+"use strict";$("document").ready(function(){$("#bg").attr("data-stellar-ratio","0.5"),$.stellar()});

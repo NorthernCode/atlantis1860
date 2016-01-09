@@ -5,9 +5,9 @@ $('document').ready(function() {
 
 	// $('.section').attr('data-stellar-ratio', '3');
 
-	$('#bg').attr('data-stellar-ratio', '0.5');
+	// $('#bg').attr('data-stellar-ratio', '0.5');
 
-	$.stellar();
+	// $.stellar();
 
     // $('html, body').animate({
     //     scrollTop: window.innerHeight / 2 //50vh

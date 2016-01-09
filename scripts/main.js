@@ -1,1 +1,1 @@
-"use strict";$("document").ready(function(){$("#bg").attr("data-stellar-ratio","0.5"),$.stellar()});
+"use strict";$("document").ready(function(){});

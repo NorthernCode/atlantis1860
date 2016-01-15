@@ -23,6 +23,8 @@ body{
   display: block;
   font-family: 'bentham', sans-serif;
   color: white;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 a, a:hover, a:visited, a:active{
@@ -35,7 +37,6 @@ a, a:hover, a:visited, a:active{
 }
 
 #bg{  
-  z-index: 0;
   position: relative;
 
   background-image: url('../images/bg_w320.jpg');
@@ -73,6 +74,47 @@ a, a:hover, a:visited, a:active{
 
 }
 
+.container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#section1{
+  background-color: green;
+  background-image: url('../images/bg1.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#section2{
+  height:50vh;
+  background-image: url('../images/bg2.jpg');
+  background-color: orange;
+  // background-attachment: fixed;
+
+}
+
+#section3{
+  background-image: url('../images/bg3.jpg');
+  height: 50vh;
+}
+
+.text {
+  background-image: url('../images/paper_bg.jpg');
+  // background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  z-index: 10;
+
+  -webkit-box-shadow: 0px 0px 47px 30px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 47px 30px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 47px 30px rgba(0,0,0,0.75);
+}
+
 /* Logo */
 
 #logo{
@@ -80,7 +122,6 @@ a, a:hover, a:visited, a:active{
   margin-right: auto;
 
   img {
-    z-index: 20;
     max-width: 100%;
   }
 }
@@ -88,7 +129,7 @@ a, a:hover, a:visited, a:active{
 h3 {
   text-align: center;
   margin-bottom: 40px;
-  margin-top: 100px;
+  // margin-top: 100px;
 }
 
 #tekijat ul{
@@ -102,12 +143,6 @@ h3 {
   }
 }
 
-
-
-.section{
-  position: relative;
-  z-index: 10;
-}
 
 
 

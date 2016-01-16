@@ -1,1 +1,1 @@
-"use strict";$("document").ready(function(){});
+"use strict";$("document").ready(function(){$("#logo").animate({opacity:"show"},3e3,"swing")});

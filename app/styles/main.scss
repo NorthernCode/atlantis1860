@@ -75,8 +75,8 @@ a, a:hover, a:visited, a:active{
 }
 
 .container{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #section1{
@@ -89,7 +89,6 @@ a, a:hover, a:visited, a:active{
 }
 
 #section2{
-  height:50vh;
   background-image: url('../images/bg2.jpg');
   background-color: orange;
   // background-attachment: fixed;
@@ -98,21 +97,33 @@ a, a:hover, a:visited, a:active{
 
 #section3{
   background-image: url('../images/bg3.jpg');
-  height: 50vh;
+}
+
+#section4{
+  background-image: url('../images/bg4.jpg');  
+}
+
+#section5{
+  background-image: url('../images/bg5.jpg');  
+  height: 100vh;  
+}
+
+.section{
+  height: 100vh;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text {
-  background-image: url('../images/paper_bg.jpg');
-  background-attachment: fixed;
+  background-image: url('../images/seamlesspaper.jpg');
+  // background-attachment: fixed;
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
   z-index: 10;
-
-  -webkit-box-shadow: 0px 0px 47px 30px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 47px 30px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 47px 30px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.75);
 }
 
 /* Logo */
@@ -129,7 +140,7 @@ a, a:hover, a:visited, a:active{
 h3 {
   text-align: center;
   margin-bottom: 40px;
-  // margin-top: 100px;
+  margin-top: 40px;
 }
 
 #tekijat ul{
@@ -137,6 +148,13 @@ h3 {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+
+  @media (max-width: 600px) { 
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;    
+  }
+
 
   li b{
     padding-top: 10px;

@@ -36,76 +36,33 @@ a, a:hover, a:visited, a:active{
   height: 100vh;
 }
 
-#bg{  
-  position: relative;
-
-  background-image: url('../images/bg_w320.jpg');
-  background-repeat: no-repeat;
-  background-position: center top;
-  // background-attachment: fixed;
-
-  @media (max-width: 600px) { 
-    height: 2349px;
-
-    background-image: url('../images/bg_w600.jpg');
-  }
-
-  @media (max-width: 800px) { 
-    height: 2349px;
-    background-image: url('../images/bg_w800.jpg');
-  }
-
-  @media (min-width:801px) and (max-width: 1200px) { 
-    height: 3523px;
-    background-image: url('../images/bg_w1200.jpg');
-  }
-  
-  @media (min-width: 1201px) and (max-width: 1600px) { 
-    height: 4698px;
-    background-image: url('../images/bg_w1600.jpg');    
-  }
-
-  @media (min-width: 1601px) { 
-    height: 5872px;
-    background-image: url('../images/bg_w2000.jpg');
-  }
-
-  color: white;
-
-}
-
 .container{
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-#section1{
-  background-color: green;
-  background-image: url('../images/bg1.jpg');
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+//bg image media queries
+
+#section1{ background-image: url('../images/w800/bg1.jpg'); }
+#section2{ background-image: url('../images/w800/bg2.jpg'); }
+#section3{ background-image: url('../images/w800/bg3.jpg'); }
+#section4{ background-image: url('../images/w800/bg4.jpg'); }
+#section5{ background-image: url('../images/w800/bg5.jpg'); }
+
+@media (min-width: 801px) and (max-width: 1200px){
+  #section1{ background-image: url('../images/w1200/bg1.jpg'); }
+  #section2{ background-image: url('../images/w1200/bg2.jpg'); }
+  #section3{ background-image: url('../images/w1200/bg3.jpg'); }
+  #section4{ background-image: url('../images/w1200/bg4.jpg'); }
+  #section5{ background-image: url('../images/w1200/bg5.jpg'); }  
 }
 
-#section2{
-  background-image: url('../images/bg2.jpg');
-  background-color: orange;
-  // background-attachment: fixed;
-
-}
-
-#section3{
-  background-image: url('../images/bg3.jpg');
-}
-
-#section4{
-  background-image: url('../images/bg4.jpg');  
-}
-
-#section5{
-  background-image: url('../images/bg5.jpg');  
-  height: 100vh;  
+@media (min-width: 1201px){
+  #section1{ background-image: url('../images/w1600/bg1.jpg'); }
+  #section2{ background-image: url('../images/w1600/bg2.jpg'); }
+  #section3{ background-image: url('../images/w1600/bg3.jpg'); }
+  #section4{ background-image: url('../images/w1600/bg4.jpg'); }
+  #section5{ background-image: url('../images/w1600/bg5.jpg'); }  
 }
 
 .section{
@@ -143,6 +100,20 @@ h3 {
   margin-top: 40px;
 }
 
+#esitykset ul {
+  padding-left: 0;
+}
+
+.sponssikuva {
+  width: 250px;
+  margin: auto;
+  display: block;
+}
+
+.sweco {
+  margin-top: 10px;
+}
+
 #tekijat ul{
   list-style: none;
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -154,7 +125,6 @@ h3 {
     -moz-column-count: 2; /* Firefox */
     column-count: 2;    
   }
-
 
   li b{
     padding-top: 10px;

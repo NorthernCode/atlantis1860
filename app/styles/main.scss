@@ -1,7 +1,7 @@
 $icon-font-path: '../fonts/';
 
 
-@font-face{ 
+@font-face{
   font-family: 'bentham';
   src: url('../fonts/bentham-webfont.eot');
   src: url('../fonts/bentham-webfont.eot?#iefix') format('embedded-opentype'),
@@ -10,7 +10,7 @@ $icon-font-path: '../fonts/';
        url('../fonts/bentham-webfont.svg#webfont') format('svg');
 }
 
-@font-face{ 
+@font-face{
   font-family: 'bridgnorth';
   src: url('../fonts/bridgnorth-webfont.eot');
   src: url('../fonts/bridgnorth-webfont.eot?#iefix') format('embedded-opentype'),
@@ -23,8 +23,8 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-// ::-webkit-scrollbar { 
-//     display: none; 
+// ::-webkit-scrollbar {
+//     display: none;
 // }
 
 body{
@@ -63,7 +63,7 @@ a, a:hover, a:visited, a:active{
   #section2{ background-image: url('../images/w1200/bg2.jpg'); }
   #section3{ background-image: url('../images/w1200/bg3.jpg'); }
   #section4{ background-image: url('../images/w1200/bg4.jpg'); }
-  #section5{ background-image: url('../images/w1200/bg5.jpg'); }  
+  #section5{ background-image: url('../images/w1200/bg5.jpg'); }
 }
 
 @media (min-width: 1201px){
@@ -71,7 +71,7 @@ a, a:hover, a:visited, a:active{
   #section2{ background-image: url('../images/w1600/bg2.jpg'); }
   #section3{ background-image: url('../images/w1600/bg3.jpg'); }
   #section4{ background-image: url('../images/w1600/bg4.jpg'); }
-  #section5{ background-image: url('../images/w1600/bg5.jpg'); }  
+  #section5{ background-image: url('../images/w1600/bg5.jpg'); }
 }
 
 .section{
@@ -93,11 +93,11 @@ a, a:hover, a:visited, a:active{
 }
 
 @media (max-width: 1200px){
-  .text { background-image: url('../images/w1200/seamlesspaper.jpg'); } 
+  .text { background-image: url('../images/w1200/seamlesspaper.jpg'); }
 }
 
 @media (max-width: 800px){
-  .text { background-image: url('../images/w800/seamlesspaper.jpg'); } 
+  .text { background-image: url('../images/w800/seamlesspaper.jpg'); }
 }
 
 
@@ -156,17 +156,13 @@ h4 {
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
 
-  @media (max-width: 600px) { 
+  @media (max-width: 600px) {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
-    column-count: 2;    
+    column-count: 2;
   }
 
   li b{
     padding-top: 10px;
   }
 }
-
-
-
-

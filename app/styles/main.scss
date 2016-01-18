@@ -46,8 +46,8 @@ a, a:hover, a:visited, a:active{
 }
 
 .container{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 //bg image media queries
@@ -82,15 +82,24 @@ a, a:hover, a:visited, a:active{
 }
 
 .text {
-  background-image: url('../images/seamlesspaper.jpg');
+  background-image: url('../images/w1600/seamlesspaper.jpg');
   // background-attachment: fixed;
-  background-position: center top;
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-position: center top;
+  // background-size: cover;
+  // background-repeat: no-repeat;
   color: black;
   z-index: 10;
   box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.75);
 }
+
+@media (max-width: 1200px){
+  .text { background-image: url('../images/w1200/seamlesspaper.jpg'); } 
+}
+
+@media (max-width: 800px){
+  .text { background-image: url('../images/w800/seamlesspaper.jpg'); } 
+}
+
 
 /* Logo */
 
@@ -108,11 +117,15 @@ h3 {
   text-align: center;
   font-size: 30px;
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 #esitykset ul {
   padding-left: 0;
+}
+
+#speksi {
+  margin-top: 40px;
 }
 
 .sponssikuva {

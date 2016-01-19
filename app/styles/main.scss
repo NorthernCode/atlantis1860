@@ -75,10 +75,14 @@ a, a:hover, a:visited, a:active{
 }
 
 .section{
-  height: 100vh;
+  height: 50vh;
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#section1{
+  height: 100vh;
 }
 
 .text {

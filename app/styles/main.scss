@@ -49,24 +49,27 @@ a, a:hover, a:visited, a:active{
 
 #section1{ background-image: url('../images/w800/bg1.jpg'); }
 #section2{ background-image: url('../images/w800/bg2.jpg'); }
-#section3{ background-image: url('../images/w800/bg3.jpg'); }
-#section4{ background-image: url('../images/w800/bg4.jpg'); }
-#section5{ background-image: url('../images/w800/bg5.jpg'); }
+#section3{ background-image: url('../images/w800/bg2.jpg'); }
+#section4{ background-image: url('../images/w800/bg3.jpg'); }
+#section5{ background-image: url('../images/w800/bg4.jpg'); }
+#section6{ background-image: url('../images/w800/bg5.jpg'); }
 
 @media (min-width: 801px) and (max-width: 1200px){
   #section1{ background-image: url('../images/w1200/bg1.jpg'); }
   #section2{ background-image: url('../images/w1200/bg2.jpg'); }
-  #section3{ background-image: url('../images/w1200/bg3.jpg'); }
-  #section4{ background-image: url('../images/w1200/bg4.jpg'); }
-  #section5{ background-image: url('../images/w1200/bg5.jpg'); }
+  #section3{ background-image: url('../images/w1200/bg2.jpg'); }
+  #section4{ background-image: url('../images/w1200/bg3.jpg'); }
+  #section5{ background-image: url('../images/w1200/bg4.jpg'); }
+  #section6{ background-image: url('../images/w1200/bg5.jpg'); }
 }
 
 @media (min-width: 1201px){
   #section1{ background-image: url('../images/w1600/bg1.jpg'); }
   #section2{ background-image: url('../images/w1600/bg2.jpg'); }
-  #section3{ background-image: url('../images/w1600/bg3.jpg'); }
-  #section4{ background-image: url('../images/w1600/bg4.jpg'); }
-  #section5{ background-image: url('../images/w1600/bg5.jpg'); }
+  #section3{ background-image: url('../images/w1600/bg2.jpg'); }
+  #section4{ background-image: url('../images/w1600/bg3.jpg'); }
+  #section5{ background-image: url('../images/w1600/bg4.jpg'); }
+  #section6{ background-image: url('../images/w1600/bg5.jpg'); }
 }
 
 .section{
@@ -79,6 +82,50 @@ a, a:hover, a:visited, a:active{
 
 #section1{
   height: 100vh;
+}
+
+#section3, #section4{
+  background-attachment: fixed;
+  height: inherit;
+}
+
+.characters {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  width: 100%;
+}
+
+@media( max-width: 991px){
+  .characters p {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .characters h3{
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px){
+  .characters h3{
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 1201px){
+  .characters h3{
+    margin-top: 110px;
+  }
+}
+
+img{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: block;
 }
 
 @media (max-width: 800px){

@@ -81,6 +81,12 @@ a, a:hover, a:visited, a:active{
   height: 100vh;
 }
 
+@media (max-width: 800px){
+  #section1{
+    height: 50vh;
+  }
+}
+
 .text {
   background-image: url('../images/w1600/seamlesspaper.jpg');
   min-height: 50vh;

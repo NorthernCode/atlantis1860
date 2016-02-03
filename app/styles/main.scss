@@ -209,11 +209,20 @@ h4 {
   width: 250px;
   margin: auto;
   display: block;
+  margin-top: 30px;
 }
 
-.sweco {
-  margin-top: 10px;
+@media (min-width: 992px){
+  .tek {
+    margin-top: 90px;
+  }
+
+  .akukon {
+    margin-top: 35px;
+  }
 }
+
+
 
 #tekijat ul{
   list-style: none;

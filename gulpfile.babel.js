@@ -1,5 +1,4 @@
 // generated on 2015-12-20 using generator-gulp-webapp 1.0.3
-import gulp from 'gulp';
 import ghPages from 'gulp-gh-pages';
 import gulpLoadPlugins from 'gulp-load-plugins';
 import browserSync from 'browser-sync';
